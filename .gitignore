@@ -1,0 +1,67 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.dll
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+sdist/
+*.egg-info/
+*.whl
+MANIFEST
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+*.dist-info
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+nosetests.xml
+pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Editor/IDE-specific files
+.idea/
+.vscode/
+*.swp
+*~
+tmp/
+**/Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# OS generated files #
+.DS_Store
+
+# MyPy cache
+.mypy_cache/
+
+#venv
+venv/
+env/
+*/env/
+*/venv/
+
+# Poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# Celery flower state database
+flowerresults.db
